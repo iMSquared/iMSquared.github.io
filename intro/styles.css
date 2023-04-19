@@ -1,17 +1,19 @@
 .video-container {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
+}
+
+.this-video{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 video {
-    width: 1000px;
+    width:540px;
 }
 body {
     font-family:Cabin;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -63,7 +65,7 @@ hr.solid {
     margin-left:25%;
     margin-right:25%;
     font-family:Cabin;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
 
@@ -90,7 +92,7 @@ iframe{
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 5px 5px;
+    padding: 5px 10px;
     font-size: 30px;
     font-family:Cabin;
 }
