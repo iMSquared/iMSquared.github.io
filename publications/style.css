@@ -1,0 +1,69 @@
+.spacer {
+    height: 400px; /* Adjust the height to control the amount of empty space */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.publications-list {
+    margin-left:20%;
+    margin-right:20%;
+    padding: 20px;
+}
+
+.publication {
+    display: flex;
+    font-family: Cabin;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.publication-image-container {
+    flex: 0 0 220px;
+    margin-right: 20px;
+}
+
+.publication-image {
+    width: 220px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.publication-author {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.publication-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.publication-link {
+    text-decoration: none;
+}
+
+.publication-conference {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.publication-url-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a:hover {
+    color: #000085;
+  }

@@ -1,0 +1,148 @@
+.spacer {
+    height: 100px; /* Adjust the height to control the amount of empty space */
+}
+
+h2 {
+    text-align: center;
+    font-family: Cabin;
+}
+h3{
+    font-family: Cabin;
+    text-align: center;
+}
+h4 {
+    font-family: Cabin;
+}
+ul {
+    font-family: Cabin;
+}
+email {
+    font-family: Cabin;
+}
+
+p{
+    font-size:16px;
+    margin-left:20%;
+    margin-right:20%;
+    font-family:Cabin;
+  }
+  hyear{
+    font-size:25px;
+    margin-left:20%;
+    margin-right:20%;
+    font-family:Cabin;
+  }
+  htype{
+    font-size:22px;
+    margin-left:250px;
+    margin-right:250px;
+    font-family:Cabin;
+}
+#PI_bib {
+    font-family:Cabin;
+}
+body {
+    font-family:  Cabin;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    padding: 20px;
+    flex: 0 0 200px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.alumni {
+    display: flex;
+    padding: 20px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.profile img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+#phd-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin-left:20%;
+    align-items: center;
+    justify-content: center;
+    margin-right:20%;
+}
+
+#master-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-left:20%;
+    justify-content: center;
+    margin-right:20%;
+}
+
+#intern-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20%;
+    margin-right:20%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#etc-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    margin-left:20%;
+    margin-right:20%;
+    justify-content: center;
+}
+.member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+}
+
+.member-image {
+    width: 150px;
+    height: 180px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+.member-link {
+    margin: 5px 0;
+    font-family: Cabin;
+
+}
+
+
+a:hover {
+    color: #000085;
+  }

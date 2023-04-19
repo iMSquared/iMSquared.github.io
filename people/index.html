@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title> The IM^2 Lab </title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="shortcut icon" type="image/x-icon" href="../images/logos/iconsquare.svg" />
-<body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -15,50 +10,64 @@
     <div class="w3-right w3-hide-small">
       <a href="../research/" class="w3-bar-item w3-button">Research</a>
       <a href="#People" class="w3-bar-item w3-button">People</a>
-            <a href="../opportunities/" class="w3-bar-item w3-button">Opportunities</a>
       <a href="../publications/" class="w3-bar-item w3-button">Publications</a>
+      <a href="../opportunities/" class="w3-bar-item w3-button">Opportunities</a>
     </div>
   </div>
 </div>
 
-<style>
-p{
-  font-size:16px;
-  margin-left:250px;
-  margin-right:250px;
-  font-family:Cabin
-}
-hyear{
-  font-size:25px;
-  margin-left:250px;
-  margin-right:250px;
-  font-family:Cabin
-}
-htype{
-  font-size:22px;
-  margin-left:250px;
-  margin-right:250px;
-  font-family:Cabin
-}
-</style>
-<div class="w3-padding-48" style="max-height:1564px"> </div>
-<p><b> Principal Investigator</b></p>
-<p><a href="https://beomjoonkim.github.io"> Beomjoon Kim</a></p>
-<p><b> PhD students</b></p>
-<p><a href="https://yycho0108.github.io/"> Jamie (Yoonyoung) Cho </a> </p>
-<p><a href="https://dongwon-son.github.io/"> Dongwon Son </a> </p>
-<p><b> Masters students</b></p>
-<p> Minchan Kim</p>
-<p> Jiyong Ahn</p>
-<p> Heesang Cho</p>
-<p> Dongryung Lee</p>
-<p> Jisu Han</p>
-<p> Junhyek Han</p>
-<p><b> Research interns</b></p>
-<p> Jaehyung Kim</p>
-<p> Changjae Chung</p>
-<p> Junyeob Baek</p>
-<p> Minji Lee</p>
-<p> Sanghyeon Son</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logos/iconsquare.svg" />
+    <title>Lab Members</title>
+</head>
+<body>
+  <div class="spacer"></div>
+
+    <h3>Principal Investigator</h3>
+      <div class="profile">
+        <img id="profile-image" src="./img/beomjoon.jpg" alt="Profile image">
+        <div id = 'PI_content'>
+          <div>
+          <h4 id="name"style="font-family:Cabin"><a href="https://beomjoonkim.github.io/">Beomjoon Kim</a></h4>
+          </div>
+          <div>
+            <email style="font-family:Cabin">{firstname}.{lastname} at kaist.ac.kr</email>
+          </div>
+          <div id = 'PI_bib'>
+            Beomjoon Kim is an Assistant Professor in   <a href="http://gsai.kaist.ac.kr/">Graduate School of AI</a> at <a href="https://www.kaist.ac.kr/en/"> KAIST</a>. He is interested in creating intelligent mobile-manipulation robots that can efficiently make decisions in complex environments by utilizing prior knowledge and new experience.
+            Previously, he obtained Ph.D. in computer science from <a href="https://www.csail.mit.edu/">MIT CSAIL</a>,
+                MSc in computer science from <a href="https://www.mcgill.ca/"> McGill University</a>, and BMath in computer science and statistics from <a href="https://uwaterloo.ca/">University of Waterloo</a>.
+          </div>
+        </div>
+    </div>
+    <script src="scripts.js"  type="module"></script>
+    <h3>PhD Students</h3>
+    <div id="phd-container"></div>
+    <script src="phd_script.js"></script>
+
+    <h3>Master Students</h3>
+    <div id="master-container"></div>
+    <script src="master_script.js"></script>
+
+    <h3>Interns</h3>
+    <div id="intern-container"></div>
+    <script src="intern_script.js"></script>
+
+    <h3>Adorable Associates of our lab</h3>
+      <div id="etc-container"></div>
+      <script src="etc_script.js"></script>
+
+    <h3>Lab Alumni</h3>
+    <div class = 'alumni'>
+      <ul>
+        <li><a href="https://github.com/ajy8456">Jiyong Ahn</a></li>
+        <li><a href="">Heesang Cho</a></li>
+      </ul>
+    </div>
 </body>
 </html>
+
