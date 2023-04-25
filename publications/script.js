@@ -1,6 +1,17 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
 const publications = [
     {
+        title: 'Local object crop collision network for efficient simulation of non-convex objects in GPU-based simulators.',
+        author: 'Dongwon Son, Beomjoon Kim.',
+        conference: 'Robotics: Science and Systems (RSS)',
+        year:2023,
+        conference_etc: '',
+        pdfUrl: 'https://arxiv.org/pdf/2304.09439.pdf',
+        VideoUrl: 'https://youtube.com/playlist?list=PLtZIqgjx5N3JAhojekFJQ04wbm9-pZ2IZ',
+        ProjectUrl:'https://sites.google.com/view/locc-rss2023/home',
+        imageUrl: 'images/Locc.png',
+    },
+    {
         title: 'Ohm^2: Optimal hierarchical planner for object search in large environments via mobile manipulation.',
         author: 'Yoonyoung Cho*, Donghoon Shin*, Beomjoon Kim.',
         conference: 'International Conference on Intelligent Robots and Systems (IROS)',
