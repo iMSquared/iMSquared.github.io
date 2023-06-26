@@ -20,6 +20,12 @@ const PhdMembers = [
         imageUrl:'./img/default.png',
         status: 'PhD candidate',
         websiteUrl: ''
+    },
+    {
+        name: 'Haewon Jung',
+        imageUrl:'./img/default.png',
+        status: 'PhD candidate',
+        websiteUrl: ''
     }
 ];
 const PhdContainer = document.getElementById('phd-container');
