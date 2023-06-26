@@ -14,7 +14,7 @@ const MSMembers = [
         websiteUrl: 'https://www.linkedin.com/in/junhyek-han-40444923a'
     },
     {
-        name: 'Jisu Han (Lab Leader)',
+        name: 'Jisu Han (Lab Manager)',
         imageUrl:'./img/default.png',
         status: 'Master candidate',
         websiteUrl: 'https://github.com/JisuHann?tab=repositories'
