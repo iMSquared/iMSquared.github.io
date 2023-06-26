@@ -6,7 +6,7 @@ const publications = [
         conference: 'International Conference on Intelligent Robots and Systems (IROS)',
         year:2023,
         conference_etc: '',
-        pdfUrl: 'https://arxiv.org/pdf/2304.09439.pdf',
+        pdfUrl: 'https://sites.google.com/view/nonprenehsile-decomposition?usp=sharing',
         VideoUrl: 'https://youtu.be/HGvBO-Gs9XY',
         ProjectUrl:'https://sites.google.com/view/nonprenehsile-decomposition?usp=sharing',
         imageUrl: 'images/non_prehensile.png',
