@@ -9,7 +9,7 @@ const MSMembers = [
     },
     {
         name: 'Junhyek Han',
-        imageUrl:'./img/default.png',
+        imageUrl:'./img/junhyek.jpg',
         status: 'Master candidate',
         websiteUrl: 'https://www.linkedin.com/in/junhyek-han-40444923a'
     },

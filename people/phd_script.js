@@ -23,7 +23,7 @@ const PhdMembers = [
     },
     {
         name: 'Haewon Jung',
-        imageUrl:'./img/default.png',
+        imageUrl:'./img/haewon.jpg',
         status: 'PhD candidate',
         websiteUrl: 'https://github.com/j-hae1'
     }
