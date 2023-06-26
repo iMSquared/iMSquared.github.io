@@ -25,7 +25,7 @@ const PhdMembers = [
         name: 'Haewon Jung',
         imageUrl:'./img/default.png',
         status: 'PhD candidate',
-        websiteUrl: ''
+        websiteUrl: 'https://github.com/j-hae1'
     }
 ];
 const PhdContainer = document.getElementById('phd-container');
