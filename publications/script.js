@@ -1,6 +1,17 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
 const publications = [
     {
+        title: 'Pre- and Post-Contact Policy Decomposition for Non-Prehensile Manipulation with Sim-to-Real Transfer.',
+        author: 'Minchan Kim, Junhyek Han, Jaehyung Kim, and Beomjoon Kim.',
+        conference: 'International Conference on Intelligent Robots and Systems (IROS)',
+        year:2023,
+        conference_etc: '',
+        pdfUrl: 'https://arxiv.org/pdf/2304.09439.pdf',
+        VideoUrl: 'https://youtu.be/HGvBO-Gs9XY',
+        ProjectUrl:'https://sites.google.com/view/nonprenehsile-decomposition?usp=sharing',
+        imageUrl: 'images/non_prehensile.png',
+    },
+    {
         title: 'Local object crop collision network for efficient simulation of non-convex objects in GPU-based simulators.',
         author: 'Dongwon Son, Beomjoon Kim.',
         conference: 'Robotics: Science and Systems (RSS)',
