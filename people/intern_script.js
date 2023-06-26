@@ -2,11 +2,6 @@
 
 const Interns = [
     {
-        name: 'Sanghyun Son',
-        imageUrl:'./img/sanghyeon.JPG',
-        websiteUrl: 'https://github.com/ssh98son?tab=repositories'
-    },
-    {
         name: 'Hyunbae Kim',
         imageUrl:'./img/hyunbae.jpg',
         websiteUrl: 'https://github.com/BaeLuv?tab=repositories'

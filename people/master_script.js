@@ -25,6 +25,11 @@ const MSMembers = [
         status: 'Master candidate',
         websiteUrl: 'https://www.linkedin.com/in/jaehyung-kim-a666551ba/'
     },
+    {
+        name: 'Sanghyun Son',
+        imageUrl:'./img/sanghyeon.JPG',
+        websiteUrl: 'https://github.com/ssh98son?tab=repositories'
+    },
 ];
 
 const MasterContainer = document.getElementById('master-container');
