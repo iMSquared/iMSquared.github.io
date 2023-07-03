@@ -23,7 +23,7 @@ const Interns = [
     },
     {
         name: 'Jaeryeong Kim',
-        imageUrl:'./img/jaeryung.JPG',
+        imageUrl:'./img/jaeryeong.JPG',
         websiteUrl: ''
     },
     {
@@ -38,7 +38,7 @@ const Interns = [
     },
     {
         name: 'Hojin Jung',
-        imageUrl:'./img/hojin.jpg',
+        imageUrl:'./img/hojin.png',
         websiteUrl: 'https://dev.hojins.life/'
     },
 ];
