@@ -8,7 +8,7 @@ const Interns = [
     },
     {
         name: 'Kwanwoo Kim',
-        imageUrl:'./img/default.png',
+        imageUrl:'./img/kwanwoo.jpg',
         websiteUrl: ''
     },
     {
@@ -28,7 +28,7 @@ const Interns = [
     },
     {
         name: 'Beomseok Kim',
-        imageUrl:'./img/default.png',
+        imageUrl:'./img/beomseok.jpg',
         websiteUrl: ''
     },
     {
@@ -40,6 +40,11 @@ const Interns = [
         name: 'Hojin Jung',
         imageUrl:'./img/hojin.png',
         websiteUrl: 'https://dev.hojins.life/'
+    },
+    {
+        name: 'Hyunjoon Lee',
+        imageUrl:'./img/hyunjoon.jpg',
+        websiteUrl: 'https://github.com/HyunJJon'
     },
 ];
 
