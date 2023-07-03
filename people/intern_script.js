@@ -16,6 +16,31 @@ const Interns = [
         imageUrl:'./img/donguk.JPG',
         websiteUrl: 'https://github.com/mydulee06'
     },
+    {
+        name: 'Yoontae Cho',
+        imageUrl:'./img/yoontae.jpg',
+        websiteUrl: ''
+    },
+    {
+        name: 'Jaeryeong Kim',
+        imageUrl:'./img/jaeryung.JPG',
+        websiteUrl: ''
+    },
+    {
+        name: 'Beomseok Kim',
+        imageUrl:'./img/default.png',
+        websiteUrl: ''
+    },
+    {
+        name: 'Hwanseok Jung',
+        imageUrl:'./img/hwanseok.jpg',
+        websiteUrl: 'https://blog.naver.com/junghs1040'
+    },
+    {
+        name: 'Hojin Jung',
+        imageUrl:'./img/hojin.jpg',
+        websiteUrl: 'https://dev.hojins.life/'
+    },
 ];
 
 const Container = document.getElementById('intern-container');
