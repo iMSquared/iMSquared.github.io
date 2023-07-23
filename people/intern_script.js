@@ -32,11 +32,6 @@ const Interns = [
         websiteUrl: ''
     },
     {
-        name: 'Hwanseok Jung',
-        imageUrl:'./img/hwanseok.jpg',
-        websiteUrl: 'https://blog.naver.com/junghs1040'
-    },
-    {
         name: 'Hojin Jung',
         imageUrl:'./img/hojin.png',
         websiteUrl: 'https://dev.hojins.life/'
@@ -46,6 +41,16 @@ const Interns = [
         imageUrl:'./img/hyunjoon.jpg',
         websiteUrl: 'https://github.com/HyunJJon'
     },
+    {
+        name: 'Woosung (Reiss) Koh',
+        imageUrl:'./img/woosung.jpg',
+        websiteUrl: 'https://sites.google.com/view/wkoh/cv'
+    },
+    // {
+    //     name: 'Hwanseok Jung',
+    //     imageUrl:'./img/hwanseok.jpg',
+    //     websiteUrl: 'https://blog.naver.com/junghs1040'
+    // },
 ];
 
 const Container = document.getElementById('intern-container');
