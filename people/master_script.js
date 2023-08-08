@@ -15,7 +15,7 @@ const MSMembers = [
   },
   {
     name: "Jisu Han (Lab Manager)",
-    imageUrl: "./img/default.png",
+    imageUrl: "./img/jisu.png",
     status: "Master candidate",
     websiteUrl: "https://github.com/JisuHann?tab=repositories",
   },
