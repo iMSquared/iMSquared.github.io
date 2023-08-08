@@ -33,7 +33,7 @@ const MSMembers = [
   },
   {
     name: "Sejune Joo",
-    imageUrl: "./img/default.png",
+    imageUrl: "./img/sejune.JPG",
     status: "Master candidate",
     websiteUrl: "",
   },
