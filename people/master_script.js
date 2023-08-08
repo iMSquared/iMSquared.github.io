@@ -35,7 +35,7 @@ const MSMembers = [
     name: "Sejune Joo",
     imageUrl: "./img/sejune.JPG",
     status: "Master candidate",
-    websiteUrl: "",
+    websiteUrl: "https://www.linkedin.com/in/se-june-%E2%80%8Djoo-60a2ba211/",
   },
 ];
 
