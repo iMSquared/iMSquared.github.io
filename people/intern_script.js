@@ -43,7 +43,7 @@ const Interns = [
   },
   {
     name: "Hojun Han",
-    imageUrl: "./img/default.png",
+    imageUrl: "./img/hojunhan.jpeg",
     websiteUrl: "",
   },
 ];
