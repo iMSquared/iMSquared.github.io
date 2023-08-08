@@ -1,50 +1,49 @@
 // import {PhdMembers} from './people_database.js';
 
-
 const PhdMembers = [
-    {
-        name: 'Jamie (Yoonyoung) Cho',
-        imageUrl: './img/jamie.png',
-        status: 'PhD candidate',
-        websiteUrl: 'github.com/yycho0108'
-    },
-    {
-        name: 'Dongwon Son',
-        imageUrl:'./img/dongwon.png',
-        status: 'PhD candidate',
-        websiteUrl: 'https://dongwon-son.github.io/'
-    },
+  {
+    name: "Jamie (Yoonyoung) Cho",
+    imageUrl: "./img/jamie.png",
+    status: "PhD candidate",
+    websiteUrl: "github.com/yycho0108",
+  },
+  {
+    name: "Dongwon Son",
+    imageUrl: "./img/dongwon.png",
+    status: "PhD candidate",
+    websiteUrl: "https://dongwon-son.github.io/",
+  },
 
-    {
-        name: 'Minchan Kim',
-        imageUrl:'./img/default.png',
-        status: 'PhD candidate',
-        websiteUrl: ''
-    },
-    {
-        name: 'Haewon Jung',
-        imageUrl:'./img/haewon.jpg',
-        status: 'PhD candidate',
-        websiteUrl: 'https://github.com/j-hae1'
-    }
+  {
+    name: "Minchan Kim",
+    imageUrl: "./img/default.png",
+    status: "PhD candidate",
+    websiteUrl: "",
+  },
+  {
+    name: "Haewon Jung",
+    imageUrl: "./img/haewon.jpg",
+    status: "PhD candidate",
+    websiteUrl: "https://github.com/j-hae1",
+  },
 ];
-const PhdContainer = document.getElementById('phd-container');
+const PhdContainer = document.getElementById("phd-container");
 
-PhdMembers.forEach(member => {
-    const memberCard = document.createElement('div');
-    memberCard.classList.add('member-card');
+PhdMembers.forEach((member) => {
+  const memberCard = document.createElement("div");
+  memberCard.classList.add("member-card");
 
-    const memberImage = document.createElement('img');
-    memberImage.classList.add('member-image');
-    memberImage.src = member.imageUrl;
-    memberImage.alt = `${member.name}'s profile image`;
+  const memberImage = document.createElement("img");
+  memberImage.classList.add("member-image");
+  memberImage.src = member.imageUrl;
+  memberImage.alt = `${member.name}'s profile image`;
 
-    const memberLink = document.createElement('a');
-    memberLink.classList.add('member-link');
-    memberLink.href = member.websiteUrl;
-    memberLink.textContent = member.name;
+  const memberLink = document.createElement("a");
+  memberLink.classList.add("member-link");
+  memberLink.href = member.websiteUrl;
+  memberLink.textContent = member.name;
 
-    memberCard.appendChild(memberImage);
-    memberCard.appendChild(memberLink);
-    PhdContainer.appendChild(memberCard);
+  memberCard.appendChild(memberImage);
+  memberCard.appendChild(memberLink);
+  PhdContainer.appendChild(memberCard);
 });
