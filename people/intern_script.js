@@ -2,44 +2,14 @@
 
 const Interns = [
   {
-    name: "Kwanwoo Kim",
-    imageUrl: "./img/kwanwoo.jpg",
-    websiteUrl: "",
-  },
-  {
     name: "Donguk Lee",
     imageUrl: "./img/donguk.JPG",
     websiteUrl: "https://github.com/mydulee06",
   },
   {
-    name: "Yoontae Cho",
-    imageUrl: "./img/yoontae.jpg",
-    websiteUrl: "",
-  },
-  {
-    name: "Jaeryeong Kim",
-    imageUrl: "./img/jaeryeong.JPG",
-    websiteUrl: "",
-  },
-  {
-    name: "Beomseok Kim",
-    imageUrl: "./img/beomseok.jpg",
-    websiteUrl: "",
-  },
-  {
     name: "Hojin Jung",
     imageUrl: "./img/hojin.png",
     websiteUrl: "https://dev.hojins.life/",
-  },
-  {
-    name: "Hyunjoon Lee",
-    imageUrl: "./img/hyunjoon.jpg",
-    websiteUrl: "https://github.com/HyunJJon",
-  },
-  {
-    name: "Woosung (Reiss) Koh",
-    imageUrl: "./img/woosung.jpg",
-    websiteUrl: "https://sites.google.com/view/wkoh/cv",
   },
   {
     name: "Hojun Han",

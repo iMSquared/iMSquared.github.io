@@ -2,6 +2,20 @@
 const publications = [
   {
     title:
+      "Preference learning for guiding the tree search in continuous POMDPs",
+    author: "Jiyong Ahn , Sanghyeon Son , Dongryung Lee , Jisu Han , Dongwon Son , and Beomjoon Kim.",
+    conference:
+      "Conference on Robot Learnining (CoRL)",
+    year: 2023,
+    conference_etc: "",
+    pdfUrl: "https://openreview.net/pdf?id=09UL1dCqf2n",
+    VideoUrl: "https://youtu.be/sONwle96q-8?si=daMlHJAQyEjGsp-l",
+    ProjectUrl:
+      "https://sites.google.com/view/preference-guided-pomcpow?usp=sharing",
+    imageUrl: "images/non_prehensile.png",
+  },
+  {
+    title:
       "Pre- and post-contact policy decomposition for non-prehensile manipulation with zero-shot sim-to-real transfer.",
     author: "Minchan Kim, Junhyek Han, Jaehyung Kim, and Beomjoon Kim.",
     conference:
