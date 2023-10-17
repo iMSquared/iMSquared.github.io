@@ -12,7 +12,7 @@ const publications = [
     VideoUrl: "https://youtu.be/sONwle96q-8?si=daMlHJAQyEjGsp-l",
     ProjectUrl:
       "https://sites.google.com/view/preference-guided-pomcpow?usp=sharing",
-    imageUrl: "images/non_prehensile.png",
+    imageUrl: "images/POMDPs.png",
   },
   {
     title:
