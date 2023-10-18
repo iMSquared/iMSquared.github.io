@@ -3,7 +3,7 @@ const publications = [
   {
     title:
       "Preference learning for guiding the tree search in continuous POMDPs",
-    author: "Jiyong Ahn , Sanghyeon Son , Dongryung Lee , Jisu Han , Dongwon Son , and Beomjoon Kim.",
+    author: "Jiyong Ahn, Sanghyeon Son, Dongryung Lee, Jisu Han, Dongwon Son, and Beomjoon Kim.",
     conference:
       "Conference on Robot Learnining (CoRL)",
     year: 2023,
