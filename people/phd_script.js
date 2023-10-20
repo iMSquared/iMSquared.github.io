@@ -16,9 +16,9 @@ const PhdMembers = [
 
   {
     name: "Minchan Kim",
-    imageUrl: "./img/default.png",
+    imageUrl: "./img/minchan.jpg",
     status: "PhD candidate",
-    websiteUrl: "",
+    websiteUrl: "https://minchan-kim.github.io",
   },
   {
     name: "Haewon Jung",
