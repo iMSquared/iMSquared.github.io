@@ -1,5 +1,20 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
 const publications = [
+
+  {
+    title:
+      "Learning whole-body manipulation for quadrupedal robot",
+    author: "Seunghun Jeon, Moonkyu Jung, Suyoung Choi, Beomjoon Kim, Jemin Hwangbo",
+    conference:
+      "Robotics and Automation Letters (RA-L)",
+    year: 2023,
+    conference_etc: "",
+    pdfUrl: "https://arxiv.org/pdf/2308.16820.pdf",
+    VideoUrl: "https://www.youtube.com/watch?v=fO_PVr27QxU&feature=youtu.be&ab_channel=RaiLabKaist",
+    ProjectUrl:
+      "",
+    imageUrl: "images/wholebody.png",
+  },
   {
     title:
       "Preference learning for guiding the tree search in continuous POMDPs",

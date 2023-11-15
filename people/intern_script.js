@@ -11,11 +11,6 @@ const Interns = [
     imageUrl: "./img/hojin.png",
     websiteUrl: "https://dev.hojins.life/",
   },
-  {
-    name: "Hojun Han",
-    imageUrl: "./img/hojunhan.jpeg",
-    websiteUrl: "",
-  },
 ];
 
 const Container = document.getElementById("intern-container");
