@@ -1,6 +1,19 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
 const publications = [
-
+  {
+    title:
+      "Open x-embodiment: Robotic learning datasets and rt-x models",
+    author: "Open X-Embodiment Collaboration",
+    conference:
+      "",
+    year: 2023,
+    conference_etc: "",
+    pdfUrl: "",
+    VideoUrl: "",
+    ProjectUrl:
+      "",
+    imageUrl: "images/RTX.png",
+  },
   {
     title:
       "Learning whole-body manipulation for quadrupedal robot",
