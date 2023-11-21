@@ -4,14 +4,12 @@ const publications = [
     title:
       "Open x-embodiment: Robotic learning datasets and rt-x models",
     author: "Open X-Embodiment Collaboration",
-    conference:
-      "",
+    Paper_link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=dw3rEwgAAAAJ&citation_for_view=dw3rEwgAAAAJ:4DMP91E08xMC",
     year: 2023,
     conference_etc: "",
-    pdfUrl: "",
+    pdfUrl: "https://arxiv.org/pdf/2310.08864.pdf",
     VideoUrl: "",
-    ProjectUrl:
-      "",
+    ProjectUrl: "https://robotics-transformer-x.github.io/",
     imageUrl: "images/RTX.png",
   },
   {
