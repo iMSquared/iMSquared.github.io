@@ -2,8 +2,8 @@
 const publications = [
   {
     title:
-      "Open x-embodiment: Robotic learning datasets and rt-x models",
-    author: "Open X-Embodiment & RT-X Collaboration",
+      "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    author: "Open X-Embodiment Collaboration",
     conference: "International Conference on Robotics and Automation (ICRA)",
     Paper_link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=dw3rEwgAAAAJ&citation_for_view=dw3rEwgAAAAJ:4DMP91E08xMC",
     year: 2023,
