@@ -2,14 +2,14 @@
 
 const Interns = [
   {
-    name: "Donguk Lee",
-    imageUrl: "./img/donguk.JPG",
-    websiteUrl: "https://github.com/mydulee06",
+    name: "Haecheol Park",
+    imageUrl: "./img/HaecheolPark.jpg",
+    websiteUrl: "",
   },
   {
-    name: "Hojin Jung",
-    imageUrl: "./img/hojin.png",
-    websiteUrl: "https://dev.hojins.life/",
+    name: "Jiho Kim",
+    imageUrl: "./img/JihoKim.jpg",
+    websiteUrl: "",
   },
 ];
 

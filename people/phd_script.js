@@ -14,17 +14,23 @@ const PhdMembers = [
     websiteUrl: "https://dongwon-son.github.io/",
   },
 
-  {
-    name: "Minchan Kim",
-    imageUrl: "./img/minchan.jpg",
-    status: "PhD candidate",
-    websiteUrl: "https://minchan-kim.github.io",
-  },
+  // {
+  //   name: "Minchan Kim",
+  //   imageUrl: "./img/minchan.jpg",
+  //   status: "PhD candidate",
+  //   websiteUrl: "https://minchan-kim.github.io",
+  // },
   {
     name: "Haewon Jung",
     imageUrl: "./img/haewon.jpg",
     status: "PhD candidate",
     websiteUrl: "https://github.com/j-hae1",
+  },
+  {
+    name: "Dongryung Lee",
+    imageUrl: "./img/dongryung.jpg",
+    status: "PhD candidate",
+    websiteUrl: "https://github.com/dlee960504",
   },
 ];
 const PhdContainer = document.getElementById("phd-container");

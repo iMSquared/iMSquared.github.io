@@ -1,12 +1,7 @@
 // import {MSMembers} from './people_database.js';
 
 const MSMembers = [
-  {
-    name: "Dongryung Lee",
-    imageUrl: "./img/dongryung.jpg",
-    status: "Master candidate",
-    websiteUrl: "https://github.com/dlee960504",
-  },
+
   {
     name: "Junhyek Han",
     imageUrl: "./img/junhyek.jpg",
@@ -36,6 +31,18 @@ const MSMembers = [
     imageUrl: "./img/sejune.JPG",
     status: "Master candidate",
     websiteUrl: "https://www.linkedin.com/in/se-june-%E2%80%8Djoo-60a2ba211/",
+  },
+  {
+    name: "Donguk Lee",
+    imageUrl: "./img/donguk.JPG",
+    status: "Master candidate",
+    websiteUrl: "https://github.com/mydulee06",
+  },
+  {
+    name: "Hojin Jung",
+    imageUrl: "./img/hojin.png",
+    status: "Master candidate",
+    websiteUrl: "https://dev.hojins.life/",
   },
 ];
 
