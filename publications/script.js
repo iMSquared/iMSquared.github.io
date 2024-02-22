@@ -2,6 +2,32 @@
 const publications = [
   {
     title:
+      "CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects",
+    author: "Yoonyoung Cho, Junhyek Han, Yoontae Cho, Beomjoon Kim",
+    conference: "International Conference on Learning Representations (ICLR)",
+    Paper_link: "https://openreview.net/pdf?id=KTtEICH4TO",
+    year: 2024,
+    conference_etc: "",
+    pdfUrl: "https://openreview.net/pdf?id=KTtEICH4TO",
+    VideoUrl: "https://www.youtube.com/watch?v=TQE-Wku_2sk",
+    ProjectUrl: "https://sites.google.com/view/contact-non-prehensile",
+    imageUrl: "images/CORN.png",
+  },
+  {
+    title:
+      "An Intuitive Multi-Frequency Feature Representation for SO(3)-Equivariant Networks",
+    author: "Dongwon Son, Jaehyung Kim, Sanghyeon Son, Beomjoon Kim",
+    conference: "International Conference on Learning Representations (ICLR)",
+    Paper_link: "https://openreview.net/forum?id=5JWAOLBxwp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
+    year: 2024,
+    conference_etc: "",
+    pdfUrl: "https://imsquared.github.io/papers/ICLR2024_EVN.pdf",
+    VideoUrl: "",
+    ProjectUrl: "",
+    imageUrl: "images/EVN.png",
+  },
+  {
+    title:
       "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     author: "Open X-Embodiment Collaboration",
     conference: "International Conference on Robotics and Automation (ICRA)",
