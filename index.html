@@ -1,198 +1,175 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>The IM^2 Lab</title>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <meta name="description" content="MIT Manipulation and Mechanisms Lab" />
-    <meta name="keywords" content="MIT robotics manipulation lab" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Ubuntu:400,100,300,700,500,900"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script type="text/javascript" src="js/xml_reader.js"></script>
-    <script type="text/javascript" src="js/page_format.js"></script>
-    <script type="text/javascript" src="js/skel.min.js"></script>
-    <script type="text/javascript" src="js/init.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/skel-noscript.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/style-desktop.css" />
-    <link rel="stylesheet" href="intro/styles.css" />
+<head>
+  <title>The IM^2 Lab</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-63780634-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-63780634-1");
-    </script>
-  </head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="description" content="MIT Manipulation and Mechanisms Lab" />
+  <meta name="keywords" content="MIT robotics manipulation lab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,100,300,700,500,900" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/xml_reader.js"></script>
+  <script type="text/javascript" src="js/page_format.js"></script>
+  <script type="text/javascript" src="js/skel.min.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/skel-noscript.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style-desktop.css" />
+  <link rel="stylesheet" href="intro/styles.css" />
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link
-    rel="shortcut icon"
-    type="image/x-icon"
-    href="images/logos/iconsquare.svg"
-  />
-  <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-        <a href="#home" class="w3-bar-item w3-button">
-          <img
-            class="w3-image"
-            src="images/logos/main_logo.svg"
-            width="40"
-            height="40"
-          />
-          Intelligent Mobile Manipulation Lab
-        </a>
-        <!-- Float links to the right. Hide them on small screens -->
-        <div class="w3-right w3-hide-small">
-          <!--a href="research/" class="w3-bar-item w3-button">Research</a-->
-          <a href="people/" class="w3-bar-item w3-button">People</a>
-          <a href="publications/" class="w3-bar-item w3-button">Publications</a>
-          <a href="opportunities/" class="w3-bar-item w3-button"
-            >Opportunities</a
-          >
-        </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63780634-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-63780634-1");
+  </script>
+</head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="shortcut icon" type="image/x-icon" href="images/logos/iconsquare.svg" />
+
+<body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button">
+        <img class="w3-image" src="images/logos/main_logo.svg" width="40" height="40" />
+        Intelligent Mobile Manipulation Lab
+      </a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <!--a href="research/" class="w3-bar-item w3-button">Research</a-->
+        <a href="people/" class="w3-bar-item w3-button">People</a>
+        <a href="publications/" class="w3-bar-item w3-button">Publications</a>
+        <a href="opportunities/" class="w3-bar-item w3-button">Opportunities</a>
       </div>
     </div>
+  </div>
 
-    <div class="w3-padding-48" style="max-height: 1000px"></div>
-    <!-- Header -->
-    <div class="this-video">
-      <div class="video-container">
-        <video
-          id="video-player"
-          width="640"
-          height="360"
-          muted
-          autoplay
-        ></video>
-        <div class="video-label">IM^2 Lab</div>
-      </div>
-      <script src="intro/video_script.js"></script>
+  <div class="w3-padding-48" style="max-height: 1000px"></div>
+  <!-- Header -->
+  <div class="this-video">
+    <div class="video-container">
+      <video id="video-player" width="640" height="360" muted autoplay></video>
+      <div class="video-label">IM^2 Lab</div>
     </div>
+    <script src="intro/video_script.js"></script>
+  </div>
 
-    <!-- Page content -->
-    <div class="lab_discription">
-      Our mission is to create intelligent mobile-manipulation robots that
-      efficiently perform manipulation tasks in diverse and unstructured
-      environments. We are inspired by the enormous difficulties that arise in
-      dealing with large numbers of potentially unknown objects and robot's
-      limited knowledge and sensing capabilities. To realize this mission, we
-      conduct interdisciplinary research at the intersection of task and motion
-      planning, computer vision, and machine learning.
-    </div>
+  <!-- Page content -->
+  <div class="lab_discription">
+    Our mission is to create intelligent mobile-manipulation robots that
+    efficiently perform manipulation tasks in diverse and unstructured
+    environments. We are inspired by the enormous difficulties that arise in
+    dealing with large numbers of potentially unknown objects and robot's
+    limited knowledge and sensing capabilities. To realize this mission, we
+    conduct interdisciplinary research at the intersection of task and motion
+    planning, computer vision, and machine learning.
+  </div>
 
-    <hr class="solid" />
-    <div class="container">
-      <div class="column">
-        <h4 class="name">Recent publications</h4>
+  <hr class="solid" />
+  <div class="container">
+    <div class="column">
+      <h4 class="name">Recent publications</h4>
 
-        <div>
-          <hr class="pub" />
-          <p style="color: #000085; display: inline">CoRL 2023</p>
-          <p class="pub_description" style="display: inline">
-            Preference learning for guiding the tree search in continuous POMDPs. Jiyong Ahn, Sanghyeon Son, Dongryung Lee, Jisu Han, Dongwon Son, and Beomjoon Kim.
-            <a href="https://openreview.net/pdf?id=09UL1dCqf2n">[Paper]</a>
-            <a href="https://youtu.be/sONwle96q-8?si=daMlHJAQyEjGsp-l">[video]</a>
-            <a
-              href="https://sites.google.com/view/preference-guided-pomcpow?usp=sharing"
-              >[project]</a
-            >
-          </p>
+      <div>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">ICLR 2024</p>
+        <p class="pub_description" style="display: inline">
+          CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects. Yoonyoung
+          Cho, Junhyek Han, Yoontae Cho, and Beomjoon Kim.
+          <a href="https://openreview.net/pdf?id=KTtEICH4TO">[Paper]</a>
+          <a href="https://www.youtube.com/watch?v=TQE-Wku_2sk">[video]</a>
+          <a href="https://sites.google.com/view/contact-non-prehensile">[project]</a>
+        </p>
 
-          <hr class="pub" />
-          <p style="color: #000085; display: inline">IROS 2023</p>
-          <p class="pub_description" style="display: inline">
-            Pre- and post-contact policy decomposition for non-prehensile
-            manipulation with zero-shot sim-to-real transfer. Minchan Kim,
-            Junhyek Han, Jaehyung Kim, and Beomjoon Kim.
-            <a href="http://arxiv.org/abs/2309.02754">[arXiv]</a>
-            <a href="https://youtu.be/SVUsKp_ij-U">[video]</a>
-            <a
-              href="https://sites.google.com/view/nonprenehsile-decomposition/home"
-              >[project]</a
-            >
-          </p>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">ICLR 2024</p>
+        <p class="pub_description" style="display: inline">
+          An Intuitive Multi-Frequency Feature Representation for SO(3)-Equivariant Networks. Dongwon Son, Jaehyung Kim,
+          Sanghyeon Son, and Beomjoon Kim.
+          <a
+            href="https://openreview.net/forum?id=5JWAOLBxwp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)">[Paper]</a>
+          <a href="">[video]</a>
+          <a href="">[project]</a>
+        </p>
 
-          <hr class="pub" />
-          <p style="color: #000085; display: inline">RSS 2023</p>
-          <p class="pub_description" style="display: inline">
-            Local object crop collision network for efficient simulation of
-            non-convex objects in GPU-based simulators. Dongwon Son and Beomjoon
-            Kim.
-            <a href="https://arxiv.org/pdf/2304.09439.pdf">[arXiv]</a>
-            <a
-              href="https://youtube.com/playlist?list=PLtZIqgjx5N3JAhojekFJQ04wbm9-pZ2IZ"
-              >[video]</a
-            >
-            <a href="https://sites.google.com/view/locc-rss2023/home"
-              >[project]</a
-            >
-          </p>
-          <hr class="pub" />
-          <p style="color: #000085; display: inline">IROS 2022</p>
-          <p class="pub_description" style="display: inline">
-            Ohm^2: Optimal hierarchical planner for object search in large
-            environments via mobile manipulation. Yoonyoung Cho*, Donghoon
-            Shin*, and Beomjoon Kim.
-            <a href="../papers/cho-iros-2022.pdf">[pdf]</a>
-          </p>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">CoRL 2023</p>
+        <p class="pub_description" style="display: inline">
+          Preference learning for guiding the tree search in continuous POMDPs. Jiyong Ahn, Sanghyeon Son, Dongryung
+          Lee, Jisu Han, Dongwon Son, and Beomjoon Kim.
+          <a href="https://openreview.net/pdf?id=09UL1dCqf2n">[Paper]</a>
+          <a href="https://youtu.be/sONwle96q-8?si=daMlHJAQyEjGsp-l">[video]</a>
+          <a href="https://sites.google.com/view/preference-guided-pomcpow?usp=sharing">[project]</a>
+        </p>
 
-        </div>
-      </div>
-      <div class="column">
-        <h4 class="name">Recent talks</h4>
-        <div class="column" align="middle">
-          <iframe
-            src="https://www.youtube.com/embed/GZ-oiwOeRc8?si=za6VzawBJoIeFlc7"
-            allowfullscreen="0"
-          >
-          </iframe>
-          <p>
-            MIT Embodied Intelligence Seminar: Making Robots See and Manipulate
-          </p>
-        </div>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">IROS 2023</p>
+        <p class="pub_description" style="display: inline">
+          Pre- and post-contact policy decomposition for non-prehensile
+          manipulation with zero-shot sim-to-real transfer. Minchan Kim,
+          Junhyek Han, Jaehyung Kim, and Beomjoon Kim.
+          <a href="http://arxiv.org/abs/2309.02754">[arXiv]</a>
+          <a href="https://youtu.be/SVUsKp_ij-U">[video]</a>
+          <a href="https://sites.google.com/view/nonprenehsile-decomposition/home">[project]</a>
+        </p>
 
-        <div class="column" align="middle">
-          <iframe
-            src="https://www.youtube.com/embed/ow0UiXysoJI"
-            allowfullscreen="0"
-          >
-          </iframe>
-          <p>
-            Learning to reason for robot task and motion planning problems
-          </p>
-        </div>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">RSS 2023</p>
+        <p class="pub_description" style="display: inline">
+          Local object crop collision network for efficient simulation of
+          non-convex objects in GPU-based simulators. Dongwon Son and Beomjoon
+          Kim.
+          <a href="https://arxiv.org/pdf/2304.09439.pdf">[arXiv]</a>
+          <a href="https://youtube.com/playlist?list=PLtZIqgjx5N3JAhojekFJQ04wbm9-pZ2IZ">[video]</a>
+          <a href="https://sites.google.com/view/locc-rss2023/home">[project]</a>
+        </p>
+        <hr class="pub" />
+        <p style="color: #000085; display: inline">IROS 2022</p>
+        <p class="pub_description" style="display: inline">
+          Ohm^2: Optimal hierarchical planner for object search in large
+          environments via mobile manipulation. Yoonyoung Cho*, Donghoon
+          Shin*, and Beomjoon Kim.
+          <a href="../papers/cho-iros-2022.pdf">[pdf]</a>
+        </p>
 
-        <div class="column" align="middle">
-          <button
-            class="button"
-            onclick="location.href='https://www.youtube.com/@IMSquared.'"
-          >
-            Our Youtube Channel
-          </button>
-        </div>
       </div>
     </div>
-  </body>
+    <div class="column">
+      <h4 class="name">Recent talks</h4>
+      <div class="column" align="middle">
+        <iframe src="https://www.youtube.com/embed/GZ-oiwOeRc8?si=za6VzawBJoIeFlc7" allowfullscreen="0">
+        </iframe>
+        <p>
+          MIT Embodied Intelligence Seminar: Making Robots See and Manipulate
+        </p>
+      </div>
+
+      <div class="column" align="middle">
+        <iframe src="https://www.youtube.com/embed/ow0UiXysoJI" allowfullscreen="0">
+        </iframe>
+        <p>
+          Learning to reason for robot task and motion planning problems
+        </p>
+      </div>
+
+      <div class="column" align="middle">
+        <button class="button" onclick="location.href='https://www.youtube.com/@IMSquared.'">
+          Our Youtube Channel
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
