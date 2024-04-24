@@ -32,6 +32,12 @@ const PhdMembers = [
     status: "PhD candidate",
     websiteUrl: "https://github.com/dlee960504",
   },
+  {
+    name: "Junhyek Han",
+    imageUrl: "./img/junhyek.jpg",
+    status: "Master candidate",
+    websiteUrl: "https://www.linkedin.com/in/junhyek-han-40444923a",
+  },
 ];
 const PhdContainer = document.getElementById("phd-container");
 
