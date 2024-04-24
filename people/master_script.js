@@ -3,12 +3,6 @@
 const MSMembers = [
 
   {
-    name: "Junhyek Han",
-    imageUrl: "./img/junhyek.jpg",
-    status: "Master candidate",
-    websiteUrl: "https://www.linkedin.com/in/junhyek-han-40444923a",
-  },
-  {
     name: "Jisu Han (Lab Manager)",
     imageUrl: "./img/jisu.png",
     status: "Master candidate",
