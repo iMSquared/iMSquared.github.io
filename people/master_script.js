@@ -3,7 +3,7 @@
 const MSMembers = [
 
   {
-    name: "Jisu Han (Lab Manager)",
+    name: "Jisu Han",
     imageUrl: "./img/jisu.png",
     status: "Master candidate",
     websiteUrl: "https://github.com/JisuHann?tab=repositories",
@@ -15,7 +15,7 @@ const MSMembers = [
     websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
   },
   {
-    name: "Sanghyun Son",
+    name: "Sanghyun Son (Lab Manager)",
     imageUrl: "./img/sanghyeon.JPG",
     status: "Master candidate",
     websiteUrl: "https://github.com/ssh98son?tab=repositories",
