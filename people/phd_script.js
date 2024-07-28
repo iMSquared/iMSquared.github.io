@@ -5,7 +5,7 @@ const PhdMembers = [
     name: "Jamie (Yoonyoung) Cho",
     imageUrl: "./img/jamie.png",
     status: "PhD candidate",
-    websiteUrl: "yycho0108.github.io/research",
+    websiteUrl: "https://yycho0108.github.io/research",
   },
   {
     name: "Dongwon Son",
