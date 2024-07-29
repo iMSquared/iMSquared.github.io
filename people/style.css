@@ -139,7 +139,19 @@ body {
 .member-link {
     margin: 5px 0;
     font-family: Cabin;
+}
 
+.member-role {
+    margin: 0 0 0 0;
+    font-family: Cabin;
+    font-size: 12px;
+}
+
+.member-email {
+    margin: 0 0 0 0;
+    font-family: Cabin;
+    font-size: 12px;
+    color: #5555FF;
 }
 
 

@@ -15,10 +15,12 @@ const MSMembers = [
     websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
   },
   {
-    name: "Sanghyun Son (Lab Manager)",
+    name: "Sanghyeon Son",
     imageUrl: "./img/sanghyeon.JPG",
     status: "Master candidate",
     websiteUrl: "https://github.com/ssh98son?tab=repositories",
+    role: "Lab Manager",
+    email: "ssh98son@kaist.ac.kr",
   },
   {
     name: "Sejune Joo",
@@ -58,5 +60,22 @@ MSMembers.forEach((member) => {
 
   memberCard.appendChild(memberImage);
   memberCard.appendChild(memberLink);
+  // Add role if it exists
+  if (member.role) {
+    const memberRole = document.createElement("p");
+    memberRole.classList.add("member-role");
+    memberRole.innerText = member.role;
+    memberCard.appendChild(memberRole);
+  }
+  // Add email if it exists
+  if (member.email) {
+    const memberEmail = document.createElement("a");
+    memberEmail.classList.add("member-email");
+    memberEmail.href = "mailto:".concat(member.email);
+    memberEmail.textContent = member.email;
+    memberCard.appendChild(memberEmail);
+  }
+  
   MasterContainer.appendChild(memberCard);
+
 });
