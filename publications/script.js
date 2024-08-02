@@ -2,6 +2,19 @@
 const publications = [
   {
     title:
+      "DEF-oriCORN: efficient 3D scene understanding for robust language-directed manipulation without demonstrations",
+    author: "Dongwon Son, Sanghyeon Son, Jaehyung Kim, Beomjoon Kim",
+    conference: "Under review",
+    Paper_link: "https://arxiv.org/abs/2407.21267",
+    year: 2024,
+    conference_etc: "",
+    pdfUrl: "https://arxiv.org/abs/2407.21267",
+    VideoUrl: "",
+    ProjectUrl: "https://sites.google.com/view/def-oricorn/home",
+    imageUrl: "images/DEF-oriCORN.png",
+  },
+  {
+    title:
       "CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects",
     author: "Yoonyoung Cho, Junhyek Han, Yoontae Cho, Beomjoon Kim",
     conference: "International Conference on Learning Representations (ICLR)",
@@ -23,7 +36,7 @@ const publications = [
     conference_etc: "",
     pdfUrl: "https://imsquared.github.io/papers/ICLR2024_EVN.pdf",
     VideoUrl: "",
-    ProjectUrl: "",
+    ProjectUrl: "https://sites.google.com/view/fer-multifrequency-so3/",
     imageUrl: "images/EVN.png",
   },
   {
