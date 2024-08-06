@@ -2,6 +2,19 @@
 const publications = [
   {
     title:
+      "Prime the Search: Using Large Language Models for Guiding Geometric Task and Motion Planning by Warm-starting Tree Search",
+    author: "Dongryung Lee, Sejune Joo, Kimin Lee, and Beomjoon Kim",
+    conference: "Under review",
+    Paper_link: "",
+    year: 2024,
+    conference_etc: "",
+    pdfUrl: "../papers/STaLM_IJRR_submission_.pdf",
+    VideoUrl: "",
+    ProjectUrl: "",
+    imageUrl: "images/STaLM_pipeline.png",
+  },
+  {
+    title:
       "DEF-oriCORN: efficient 3D scene understanding for robust language-directed manipulation without demonstrations",
     author: "Dongwon Son, Sanghyeon Son, Jaehyung Kim, Beomjoon Kim",
     conference: "Under review",
