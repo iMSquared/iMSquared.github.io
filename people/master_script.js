@@ -40,6 +40,12 @@ const MSMembers = [
     status: "Master candidate",
     websiteUrl: "https://dev.hojins.life/",
   },
+  {
+    name: "Yoontae Cho",
+    imageUrl: "./img/yoontae.jpg",
+    status: "Master candidate",
+    websiteUrl: " https://github.com/YoontaeCho",
+  },
 ];
 
 const MasterContainer = document.getElementById("master-container");
@@ -75,7 +81,7 @@ MSMembers.forEach((member) => {
     memberEmail.textContent = member.email;
     memberCard.appendChild(memberEmail);
   }
-  
+
   MasterContainer.appendChild(memberCard);
 
 });
