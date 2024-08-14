@@ -119,6 +119,7 @@ const publications = [
       "https://youtube.com/playlist?list=PLtZIqgjx5N3JAhojekFJQ04wbm9-pZ2IZ",
     ProjectUrl: "https://sites.google.com/view/locc-rss2023/home",
     imageUrl: "images/Locc.png",
+    AppendixUrl: "https://drive.google.com/file/d/1i4jynm8pJe9XNhfDxSqat_Nz0a9VS_nF/view?usp=drive_link",
   },
   {
     title:
