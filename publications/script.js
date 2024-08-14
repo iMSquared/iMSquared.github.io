@@ -12,6 +12,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/STaLM_pipeline.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -25,6 +26,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "https://sites.google.com/view/def-oricorn/home",
     imageUrl: "images/DEF-oriCORN.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -38,6 +40,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=TQE-Wku_2sk",
     ProjectUrl: "https://sites.google.com/view/contact-non-prehensile",
     imageUrl: "images/CORN.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -51,6 +54,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "https://sites.google.com/view/fer-multifrequency-so3/",
     imageUrl: "images/EVN.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -64,6 +68,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "https://robotics-transformer-x.github.io/",
     imageUrl: "images/RTX.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -75,9 +80,9 @@ const publications = [
     conference_etc: "",
     pdfUrl: "https://arxiv.org/pdf/2308.16820.pdf",
     VideoUrl: "https://www.youtube.com/watch?v=fO_PVr27QxU&feature=youtu.be&ab_channel=RaiLabKaist",
-    ProjectUrl:
-      "",
+    ProjectUrl: "",
     imageUrl: "images/wholebody.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -92,6 +97,7 @@ const publications = [
     ProjectUrl:
       "https://sites.google.com/view/preference-guided-pomcpow?usp=sharing",
     imageUrl: "images/POMDPs.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -106,6 +112,7 @@ const publications = [
     ProjectUrl:
       "https://sites.google.com/view/nonprenehsile-decomposition/home",
     imageUrl: "images/non_prehensile.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -133,6 +140,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/ohm^2.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -145,6 +153,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=Sj5QDR2Hwd4&feature=youtu.be",
     ProjectUrl: "",
     imageUrl: "images/GraspPF.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -158,6 +167,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/SAHS.png",
+    AppendixUrl: "",
   },
   {
     title: "Integrated task and motion planning.",
@@ -171,6 +181,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/Integrated_TAMP.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -184,6 +195,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=WLoS7OXOiVI&feature=youtu.be",
     ProjectUrl: "",
     imageUrl: "images/AP_NPQL.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -197,6 +209,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=wTXt6djcAd4",
     ProjectUrl: "https://anthonysimeonov.github.io/rpo-planning-framework/",
     imageUrl: "images/A_Long_Horizon_Planning.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -210,6 +223,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=wTXt6djcAd4",
     ProjectUrl: "",
     imageUrl: "images/CAMP.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -223,6 +237,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/VOOT.png",
+    AppendixUrl: "",
   },
   {
     title: "Sim-to-Real Transfer of Bolting Tasks with Tight Tolerance.",
@@ -235,6 +250,7 @@ const publications = [
     VideoUrl: "https://www.youtube.com/watch?v=y4q0JqXdil4",
     ProjectUrl: "",
     imageUrl: "images/Sim2Real_bolting.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -247,6 +263,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/BOX.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -259,6 +276,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/Learning_value_functions.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -271,6 +289,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/VOO.png",
+    AppendixUrl: "",
   },
 
   {
@@ -285,6 +304,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/BO.png",
+    AppendixUrl: "",
   },
 
   {
@@ -298,6 +318,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/GANDI.png",
+    AppendixUrl: "",
   },
 
   {
@@ -311,6 +332,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/TrajOpt.png",
+    AppendixUrl: "",
   },
   {
     title:
@@ -323,6 +345,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/TOIL.png",
+    AppendixUrl: "",
   },
 
   {
@@ -336,6 +359,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/APID.png",
+    AppendixUrl: "",
   },
   {
     title: "Maximum mean discrepancy imitation learning.",
@@ -347,6 +371,7 @@ const publications = [
     VideoUrl: "",
     ProjectUrl: "",
     imageUrl: "images/mmd.png",
+    AppendixUrl: "",
   },
 ];
 
@@ -398,7 +423,9 @@ function createPublicationElement(publication) {
   if (publication.ProjectUrl != "") {
     url.innerHTML += `<a href="${publication.ProjectUrl}">[project]</a>`;
   }
-
+  if (publication.AppendixUrl != "") {
+    url.innerHTML += `<a href="${publication.AppendixUrl}">[Appendix]</a>`;
+  }
   detailsDiv.appendChild(url);
 
   publicationDiv.appendChild(imageContainer);
