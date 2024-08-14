@@ -3,7 +3,7 @@ const publications = [
   {
     title:
       "Prime the Search: Using Large Language Models for Guiding Geometric Task and Motion Planning by Warm-starting Tree Search",
-    author: "Dongryung Lee, Sejune Joo, Kimin Lee, and Beomjoon Kim",
+    author: "Dongryung Lee*, Sejune Joo*, Kimin Lee, and Beomjoon Kim",
     conference: "Under review",
     Paper_link: "",
     year: 2024,
