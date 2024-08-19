@@ -25,6 +25,8 @@ const PhdMembers = [
     imageUrl: "./img/haewon.jpg",
     status: "PhD candidate",
     websiteUrl: "https://github.com/j-hae1",
+    role: "Lab Manager",
+    email: "zora07@kaist.ac.kr",
   },
   {
     name: "Dongryung Lee",
@@ -57,5 +59,21 @@ PhdMembers.forEach((member) => {
 
   memberCard.appendChild(memberImage);
   memberCard.appendChild(memberLink);
+  // Add role if it exists
+  if (member.role) {
+    const memberRole = document.createElement("p");
+    memberRole.classList.add("member-role");
+    memberRole.innerText = member.role;
+    memberCard.appendChild(memberRole);
+  }
+  // Add email if it exists
+  if (member.email) {
+    const memberEmail = document.createElement("a");
+    memberEmail.classList.add("member-email");
+    memberEmail.href = "mailto:".concat(member.email);
+    memberEmail.textContent = member.email;
+    memberCard.appendChild(memberEmail);
+  }
+
   PhdContainer.appendChild(memberCard);
 });

@@ -19,8 +19,6 @@ const MSMembers = [
     imageUrl: "./img/sanghyeon.JPG",
     status: "Master candidate",
     websiteUrl: "https://github.com/ssh98son?tab=repositories",
-    role: "Lab Manager",
-    email: "ssh98son@kaist.ac.kr",
   },
   {
     name: "Sejune Joo",
