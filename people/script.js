@@ -13,12 +13,6 @@ const members = {
   ],
   "ms": [
     {
-      name: "Jisu Han",
-      imageUrl: "./img/jisu.png",
-      status: "Master candidate",
-      websiteUrl: "https://github.com/JisuHann?tab=repositories",
-    },
-    {
       name: "Jaehyung Kim",
       imageUrl: "./img/jaehyung.png",
       status: "Master candidate",
