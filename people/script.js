@@ -1,15 +1,25 @@
 const members = {
   "intern": [
-    {
-      name: "Haecheol Park",
-      imageUrl: "./img/HaecheolPark.jpg",
-      websiteUrl: "",
-    },
+    // {
+    //   name: "Haecheol Park",
+    //   imageUrl: "./img/HaecheolPark.jpg",
+    //   websiteUrl: "",
+    // },
     {
       name: "Jiho Kim",
-      imageUrl: "./img/JihoKim.jpg",
+      imageUrl: "./img/jiho_kim.jpg",
       websiteUrl: "",
     },
+    {
+      name: "Yujin Jang",
+      imageUrl: "./img/yujin_jang.jpg",
+      websiteUrl: "",
+    },
+    {
+      name: "Mingu Kang",
+      imageUrl: "./img/mingu_kang.jpeg",
+      websiteUrl: "https://github.com/rkdrn79",
+    }
   ],
   "ms": [
     {
@@ -46,7 +56,7 @@ const members = {
       name: "Yoontae Cho",
       imageUrl: "./img/yoontae.jpg",
       status: "Master candidate",
-      websiteUrl: " https://github.com/YoontaeCho",
+      websiteUrl: "https://github.com/YoontaeCho",
     },
   ],
   "phd": [
@@ -94,10 +104,12 @@ const members = {
     {
       name: 'Shakey',
       imageUrl: './img/etc/shakey_1.jpeg',
+      websiteUrl: "",
     },
     {
-        name: 'Allbam Son',
-        imageUrl:'./img/etc/allbam_1.jpg'
+      name: 'Allbam Son',
+      imageUrl:'./img/etc/allbam_1.jpg',
+      websiteUrl: "",
     },
   ],
 };
@@ -121,19 +133,18 @@ Object.keys(members).forEach((key) => {
   
     const memberLink = document.createElement("a");
     memberLink.classList.add("member-link");
+    websiteUrl = member.websiteUrl ? member.websiteUrl : "#";
     memberLink.href = member.websiteUrl;
     memberLink.textContent = member.name;
   
     memberCard.appendChild(memberImage);
     memberCard.appendChild(memberLink);
-    // Add role if it exists
     if (member.role) {
       const memberRole = document.createElement("p");
       memberRole.classList.add("member-role");
       memberRole.innerText = member.role;
       memberCard.appendChild(memberRole);
     }
-    // Add email if it exists
     if (member.email) {
       const memberEmail = document.createElement("a");
       memberEmail.classList.add("member-email");
@@ -141,7 +152,6 @@ Object.keys(members).forEach((key) => {
       memberEmail.textContent = member.email;
       memberCard.appendChild(memberEmail);
     }
-  
 
     container[key].appendChild(memberCard);
   });
