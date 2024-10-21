@@ -16,10 +16,10 @@ const members = {
       websiteUrl: "",
     },
     {
-      name: "Mingu Kang",
-      imageUrl: "./img/mingu_kang.jpeg",
-      websiteUrl: "https://github.com/rkdrn79",
-    }
+      name: "Chanyoung Kim",
+      imageUrl: "./img/chanyoung.png",
+      websiteUrl: "https://slowturtle99.notion.site",
+    },
   ],
   "ms": [
     {
