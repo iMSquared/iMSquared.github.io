@@ -16,6 +16,11 @@ const members = {
       websiteUrl: "",
     },
     {
+      name: "Joonhyeop Kim",
+      imageUrl: "./img/joonhyeop.png",
+      websiteUrl: "",
+    },
+    {
       name: "Chanyoung Kim",
       imageUrl: "./img/chanyoung.png",
       websiteUrl: "https://slowturtle99.notion.site",
