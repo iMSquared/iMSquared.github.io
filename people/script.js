@@ -1,29 +1,29 @@
 const members = {
   "intern": [
-    // {
-    //   name: "Haecheol Park",
-    //   imageUrl: "./img/HaecheolPark.jpg",
-    //   websiteUrl: "",
-    // },
+    {
+      name: "MinJoon Kim",
+      imageUrl: "./img/minjoon_kim.png",
+      websiteUrl: "https://www.linkedin.com/in/246p/",
+    },
+    {
+      name: "Younjin Kang",
+      imageUrl: "./img/younjin_kang.png",
+      websiteUrl: "",
+    },
+    {
+      name: "Sunyoung Kong",
+      imageUrl: "./img/sunyoung_kong.png",
+      websiteUrl: "https://www.notion.so/About-Me-118a7eb3e86c80fe8910c55fe83564fb?pvs=4",
+    },
     {
       name: "Jiho Kim",
       imageUrl: "./img/jiho_kim.jpg",
       websiteUrl: "",
     },
     {
-      name: "Yujin Jang",
-      imageUrl: "./img/yujin_jang.jpg",
-      websiteUrl: "",
-    },
-    {
       name: "Joonhyeop Kim",
       imageUrl: "./img/joonhyeop.png",
       websiteUrl: "",
-    },
-    {
-      name: "Chanyoung Kim",
-      imageUrl: "./img/chanyoung.png",
-      websiteUrl: "https://slowturtle99.notion.site",
     },
   ],
   "ms": [
@@ -32,12 +32,6 @@ const members = {
       imageUrl: "./img/jaehyung.png",
       status: "Master candidate",
       websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
-    },
-    {
-      name: "Sanghyeon Son",
-      imageUrl: "./img/sanghyeon.JPG",
-      status: "Master candidate",
-      websiteUrl: "https://github.com/ssh98son?tab=repositories",
     },
     {
       name: "Sejune Joo",
@@ -62,6 +56,11 @@ const members = {
       imageUrl: "./img/yoontae.jpg",
       status: "Master candidate",
       websiteUrl: "https://github.com/YoontaeCho",
+    },
+    {
+      name: "Haecheol Park",
+      imageUrl: "./img/HaecheolPark.jpg",
+      websiteUrl: "",
     },
   ],
   "phd": [
