@@ -1,6 +1,11 @@
 const members = {
   "intern": [
     {
+      name: "Hyunho Noh",
+      imageUrl: "./img/hyunho_noh.png",
+      websiteUrl: "https://www.linkedin.com/in/hyunhonoh/",
+    },
+    {
       name: "MinJoon Kim",
       imageUrl: "./img/minjoon_kim.png",
       websiteUrl: "https://www.linkedin.com/in/246p/",
