@@ -93,8 +93,6 @@ const members = {
       imageUrl: "./img/haewon.jpg",
       status: "PhD candidate",
       websiteUrl: "https://github.com/j-hae1",
-      role: "Lab Manager",
-      email: "zora07@kaist.ac.kr",
     },
     {
       name: "Dongryung Lee",
@@ -107,6 +105,8 @@ const members = {
       imageUrl: "./img/junhyek.jpg",
       status: "PhD candidate",
       websiteUrl: "https://junhyekh.github.io/",
+      role: "Lab Manager",
+      email: "junhyek.han@kaist.ac.kr",
     },
   ],
   "etc": [
