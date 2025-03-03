@@ -25,19 +25,19 @@ const members = {
       imageUrl: "./img/jiho_kim.jpg",
       websiteUrl: "",
     },
-    {
-      name: "Joonhyeop Kim",
-      imageUrl: "./img/joonhyeop.png",
-      websiteUrl: "",
-    },
+    // {
+    //   name: "Joonhyeop Kim",
+    //   imageUrl: "./img/joonhyeop.png",
+    //   websiteUrl: "",
+    // },
   ],
   "ms": [
-    {
-      name: "Jaehyung Kim",
-      imageUrl: "./img/jaehyung.png",
-      status: "Master candidate",
-      websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
-    },
+    // {
+    //   name: "Jaehyung Kim",
+    //   imageUrl: "./img/jaehyung.png",
+    //   status: "Master candidate",
+    //   websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
+    // },
     {
       name: "Sejune Joo",
       imageUrl: "./img/sejune.JPG",
