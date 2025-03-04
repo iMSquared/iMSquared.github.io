@@ -4,6 +4,7 @@ const videoSources = [
     'images/intro_videos/2.mp4',
     'images/intro_videos/3.mp4',
     'images/intro_videos/4.mp4',
+    'images/intro_videos/5.mp4',
     // Add more video sources here
 ];
 
