@@ -1,8 +1,21 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
 const publications = [
-  {
+    {
+      title: "PRESTO: Fast motion planning using diffusion models based on key-configuration environment representation",
+      author: "Mingyo Seo, Yoonyoung Cho, Yoonchang Sung, Peter Stone, Yuke Zhu, Beomjoon Kim",
+      conference: "International Conference on Robotics and Automation (ICRA)",
+      Paper_link: "https://arxiv.org/abs/2409.16012",
+      year: 2025,
+      conference_etc: "",
+      pdfUrl: "https://arxiv.org/abs/2409.16012",
+      VideoUrl: "https://kiwi-sherbet.github.io/PRESTO/src/video/header.mp4",
+      ProjectUrl: "https://kiwi-sherbet.github.io/PRESTO",
+      imageUrl: "images/presto.png",
+      AppendixUrl: ""
+    },
+    {
     title: "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments",
-    author: "Yoonyoung Ch*, Junhyek Han*, Jisu Han, Beomjoon Kim",
+    author: "Yoonyoung Ch*, Junhyek Han*, Jisu Han, and Beomjoon Kim",
     conference: "Under review",
     Paper_link: "http://arxiv.org/abs/2502.20843",
     year: 2025,
