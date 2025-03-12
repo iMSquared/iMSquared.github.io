@@ -30,6 +30,7 @@
     gtag("js", new Date());
     gtag("config", "UA-63780634-1");
   </script>
+  <script type="module" src="script.js" defer></script>
 </head>
 
 <meta charset="UTF-8" />
@@ -81,141 +82,16 @@
     <div class="column">
       <h4 class="name">Recent publications</h4>
 
-      <div id="publications-list">
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">ICRA 2025</p>
-        <p class="pub_description" style="display: inline">
-          PRESTO: Fast motion planning using diffusion models based on key-configuration environment representation. 
-          Mingyo Seo, Yoonyoung Cho, Yoonchang Sung, Peter Stone, Yuke Zhu, and Beomjoon Kim.
-          <a href="https://arxiv.org/abs/2409.16012">[Paper]</a>
-          <a href="https://kiwi-sherbet.github.io/PRESTO/src/video/header.mp4">[video]</a>
-          <a href="https://kiwi-sherbet.github.io/PRESTO">[project]</a>
-        </p>
-        
-        <hr class="pub" />
-        <p style="color: #000085; display: inline"> </p>
-        <p class="pub_description" style="display: inline">
-          Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments.
-          Yoonyoung Ch*, Junhyek Han*, Jisu Han, and Beomjoon Kim.
-          <a href="http://arxiv.org/abs/2502.20843">[Paper]</a>
-          <a href="https://unicorn-hamnet.github.io/static/videos/video-cat.mp4">[video]</a>
-          <a href="http://unicorn-hamnet.github.io/">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline"> </p>
-        <p class="pub_description" style="display: inline">
-          From planning to policy: distilling Skill-RRT for long-horizon prehensile and non-prehensile manipulation.
-          Haewon Jung*, Donguk Lee*, Haecheol Park, Kim Jun Hyeop, and Beomjoon Kim.
-          <a href="https://arxiv.org/abs/2502.18015">[Paper]</a>
-          <a href="https://www.youtube.com/watch?v=5zJKgkKHnX0">[video]</a>
-          <a href="https://sites.google.com/view/skill-rrt">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline"> </p>
-        <p class="pub_description" style="display: inline">
-          Design of a low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation.
-          Jaehyung Kim, Jiho Kim, Dongryung Lee, Yujin Jang, and Beomjoon Kim.
-          <a href="https://arxiv.org/abs/2502.16908">[Paper]</a>
-          <a href="https://www.youtube.com/watch?v=5zJKgkKHnX0">[video]</a>
-          <a href="https://sites.google.com/view/im2-humanoid-arm">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline"> </p>
-        <p class="pub_description" style="display: inline">
-          Prime the Search: Using Large Language Models for Guiding Geometric Task and Motion Planning by Warm-starting
-          Tree Search. Dongryung Lee*, Sejune Joo*, Kimin Lee, and Beomjoon Kim.
-          <a href="papers/STaLM_IJRR_submission_.pdf">[Paper]</a>
-          <!-- <a href="https://www.youtube.com/watch?v=TQE-Wku_2sk">[video]</a> -->
-          <!-- <a href="https://sites.google.com/view/contact-non-prehensile">[project]</a> -->
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline"> </p>
-        <p class="pub_description" style="display: inline">
-          DEF-oriCORN: efficient 3D scene understanding for robust language-directed manipulation without
-          demonstrations. Dongwon Son, Sanghyeon Son, Jaehyung Kim, Beomjoon Kim.
-          <a href="https://arxiv.org/abs/2407.21267">[Paper]</a>
-          <a href="https://sites.google.com/view/def-oricorn/home">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">ICLR 2024</p>
-        <p class="pub_description" style="display: inline">
-          CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects. Yoonyoung
-          Cho, Junhyek Han, Yoontae Cho, and Beomjoon Kim.
-          <a href="https://openreview.net/pdf?id=KTtEICH4TO">[Paper]</a>
-          <a href="https://www.youtube.com/watch?v=TQE-Wku_2sk">[video]</a>
-          <a href="https://sites.google.com/view/contact-non-prehensile">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">ICLR 2024</p>
-        <p class="pub_description" style="display: inline">
-          An Intuitive Multi-Frequency Feature Representation for SO(3)-Equivariant Networks. Dongwon Son, Jaehyung Kim,
-          Sanghyeon Son, and Beomjoon Kim.
-          <a
-            href="https://openreview.net/forum?id=5JWAOLBxwp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)"
-          >
-            [Paper]
-          </a>
-        </p>
-
+      <div id="publications-list-recent">
         <hr class="pub" />
         <p style="color: #000085; display: inline">ICRA 2024</p>
         <p class="pub_description" style="display: inline">
           Open X-Embodiment: Robotic Learning Datasets and RT-X Models. Open X-Embodiment Collaboration (Beomjoon Kim,
           Yoonyoung Cho, Junhyek Han, Jaehyung Kim)
-          <a
-            href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=dw3rEwgAAAAJ&citation_for_view=dw3rEwgAAAAJ:4DMP91E08xMC">[Paper]</a>
-          <a
-            href="https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit?gid=0#gid=0">[dataset]</a>
+          <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=dw3rEwgAAAAJ&citation_for_view=dw3rEwgAAAAJ:4DMP91E08xMC">[Paper]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit?gid=0#gid=0">[dataset]</a>
           <a href="https://robotics-transformer-x.github.io/">[project]</a>
         </p>
-
-        <!-- <hr class="pub" />
-        <p style="color: #000085; display: inline">RA-L 2023</p>
-        <p class="pub_description" style="display: inline">
-          Learning whole-body manipulation for quadrupedal robot. Seunghun Jeon, Moonkyu Jung, Suyoung Choi, Beomjoon
-          Kim, Jemin Hwangbo.
-          <a href="https://arxiv.org/abs/2308.16820">[Paper]</a>
-          <a href="https://www.youtube.com/watch?v=fO_PVr27QxU">[video]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">CoRL 2023</p>
-        <p class="pub_description" style="display: inline">
-          Preference learning for guiding the tree search in continuous POMDPs. Jiyong Ahn, Sanghyeon Son, Dongryung
-          Lee, Jisu Han, Dongwon Son, and Beomjoon Kim.
-          <a href="https://openreview.net/pdf?id=09UL1dCqf2n">[Paper]</a>
-          <a href="https://youtu.be/sONwle96q-8?si=daMlHJAQyEjGsp-l">[video]</a>
-          <a href="https://sites.google.com/view/preference-guided-pomcpow?usp=sharing">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">IROS 2023</p>
-        <p class="pub_description" style="display: inline">
-          Pre- and post-contact policy decomposition for non-prehensile
-          manipulation with zero-shot sim-to-real transfer. Minchan Kim,
-          Junhyek Han, Jaehyung Kim, and Beomjoon Kim.
-          <a href="http://arxiv.org/abs/2309.02754">[arXiv]</a>
-          <a href="https://youtu.be/SVUsKp_ij-U">[video]</a>
-          <a href="https://sites.google.com/view/nonprenehsile-decomposition/home">[project]</a>
-        </p>
-
-        <hr class="pub" />
-        <p style="color: #000085; display: inline">RSS 2023</p>
-        <p class="pub_description" style="display: inline">
-          Local object crop collision network for efficient simulation of
-          non-convex objects in GPU-based simulators. Dongwon Son and Beomjoon
-          Kim.
-          <a href="https://arxiv.org/pdf/2304.09439.pdf">[arXiv]</a>
-          <a href="https://youtube.com/playlist?list=PLtZIqgjx5N3JAhojekFJQ04wbm9-pZ2IZ">[video]</a>
-          <a href="https://sites.google.com/view/locc-rss2023/home">[project]</a>
-        </p> -->
-
       </div>
     </div>
     <div class="column">

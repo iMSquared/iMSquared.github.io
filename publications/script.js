@@ -1,12 +1,13 @@
 // import {Interns, MSMembers, PhdMembers} from './people_database.js';
-const publications = [
+export const publications = [
     {
-      title: "PRESTO: Fast motion planning using diffusion models based on key-configuration environment representation",
-      author: "Mingyo Seo, Yoonyoung Cho, Yoonchang Sung, Peter Stone, Yuke Zhu, Beomjoon Kim",
+      title: "PRESTO: Fast motion planning using diffusion models based on key-configuration environment representation.",
+      author: "Mingyo Seo, Yoonyoung Cho, Yoonchang Sung, Peter Stone, Yuke Zhu, Beomjoon Kim.",
       conference: "International Conference on Robotics and Automation (ICRA)",
       Paper_link: "https://arxiv.org/abs/2409.16012",
       year: 2025,
       conference_etc: "",
+      conference_shortname: "ICRA 2025",
       pdfUrl: "https://arxiv.org/abs/2409.16012",
       VideoUrl: "https://kiwi-sherbet.github.io/PRESTO/src/video/header.mp4",
       ProjectUrl: "https://kiwi-sherbet.github.io/PRESTO",
@@ -14,8 +15,8 @@ const publications = [
       AppendixUrl: ""
     },
     {
-    title: "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments",
-    author: "Yoonyoung Ch*, Junhyek Han*, Jisu Han, and Beomjoon Kim",
+    title: "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments.",
+    author: "Yoonyoung Cho*, Junhyek Han*, Jisu Han, Beomjoon Kim.",
     conference: "Under review",
     Paper_link: "http://arxiv.org/abs/2502.20843",
     year: 2025,
@@ -27,21 +28,21 @@ const publications = [
     AppendixUrl: "",
   },
   {
-    title: "From planning to policy: distilling Skill-RRT for long-horizon prehensile and non-prehensile manipulation",
-    author: "Haewon Jung*, Donguk Lee*, Haecheol Park, Kim Jun Hyeop, and Beomjoon Kim",
+    title: "From planning to policy: distilling Skill-RRT for long-horizon prehensile and non-prehensile manipulation.",
+    author: "Haewon Jung*, Donguk Lee*, Haecheol Park, Junhyeop Kim, Beomjoon Kim.",
     conference: "Under review",
     Paper_link: "https://arxiv.org/abs/2502.18015",
     year: 2025,
     conference_etc: "",
     pdfUrl: "https://arxiv.org/abs/2502.18015",
-    VideoUrl: "https://www.youtube.com/watch?v=5zJKgkKHnX0",
+    VideoUrl: "https://www.youtube.com/watch?v=17u5FhO8eso",
     ProjectUrl: "https://sites.google.com/view/skill-rrt",
     imageUrl: "images/skill_rrt.png",
     AppendixUrl: "",
   },
   {
-    title: "Design of a low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation",
-    author: "Jaehyung Kim, Jiho Kim, Dongryung Lee, Yujin Jang, and Beomjoon Kim",
+    title: "Design of a low-cost and lightweight 6 DoF bimanual arm for dynamic and contact-rich manipulation.",
+    author: "Jaehyung Kim, Jiho Kim, Dongryung Lee, Yujin Jang, Beomjoon Kim.",
     conference: "Under review",
     Paper_link: "https://arxiv.org/abs/2502.16908",
     year: 2025,
@@ -54,8 +55,8 @@ const publications = [
   },
   {
     title:
-      "Prime the Search: Using Large Language Models for Guiding Geometric Task and Motion Planning by Warm-starting Tree Search",
-    author: "Dongryung Lee*, Sejune Joo*, Kimin Lee, and Beomjoon Kim",
+      "Prime the Search: Using Large Language Models for Guiding Geometric Task and Motion Planning by Warm-starting Tree Search.",
+    author: "Dongryung Lee*, Sejune Joo*, Kimin Lee, Beomjoon Kim.",
     conference: "Under review",
     Paper_link: "",
     year: 2024,
@@ -68,8 +69,8 @@ const publications = [
   },
   {
     title:
-      "DEF-oriCORN: efficient 3D scene understanding for robust language-directed manipulation without demonstrations",
-    author: "Dongwon Son, Sanghyeon Son, Jaehyung Kim, Beomjoon Kim",
+      "DEF-oriCORN: efficient 3D scene understanding for robust language-directed manipulation without demonstrations.",
+    author: "Dongwon Son, Sanghyeon Son, Jaehyung Kim, Beomjoon Kim.",
     conference: "Under review",
     Paper_link: "https://arxiv.org/abs/2407.21267",
     year: 2024,
@@ -82,12 +83,13 @@ const publications = [
   },
   {
     title:
-      "CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects",
-    author: "Yoonyoung Cho, Junhyek Han, Yoontae Cho, Beomjoon Kim",
+      "CORN: Contact-based Object Representation for Nonprehensile Manipulation of General Unseen Objects.",
+    author: "Yoonyoung Cho, Junhyek Han, Yoontae Cho, Beomjoon Kim,",
     conference: "International Conference on Learning Representations (ICLR)",
     Paper_link: "https://openreview.net/pdf?id=KTtEICH4TO",
     year: 2024,
     conference_etc: "",
+    conference_shortname: "ICLR 2024",
     pdfUrl: "https://openreview.net/pdf?id=KTtEICH4TO",
     VideoUrl: "https://www.youtube.com/watch?v=TQE-Wku_2sk",
     ProjectUrl: "https://sites.google.com/view/contact-non-prehensile",
@@ -96,12 +98,13 @@ const publications = [
   },
   {
     title:
-      "An Intuitive Multi-Frequency Feature Representation for SO(3)-Equivariant Networks",
+      "An Intuitive Multi-Frequency Feature Representation for SO(3)-Equivariant Networks.",
     author: "Dongwon Son, Jaehyung Kim, Sanghyeon Son, Beomjoon Kim",
     conference: "International Conference on Learning Representations (ICLR)",
     Paper_link: "https://openreview.net/forum?id=5JWAOLBxwp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
     year: 2024,
     conference_etc: "",
+    conference_shortname: "ICLR 2024",
     pdfUrl: "../papers/ICLR2024_EVN.pdf",
     VideoUrl: "",
     ProjectUrl: "https://sites.google.com/view/fer-multifrequency-so3/",
@@ -110,21 +113,24 @@ const publications = [
   },
   {
     title:
-      "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "Open X-Embodiment: Robotic Learning Datasets and RT-X Models.",
     author: "Open X-Embodiment Collaboration",
     conference: "International Conference on Robotics and Automation (ICRA)",
     Paper_link: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=dw3rEwgAAAAJ&citation_for_view=dw3rEwgAAAAJ:4DMP91E08xMC",
-    year: 2023,
+    year: 2024,
     conference_etc: "",
+    conference_shortname: "ICRA 2024",
     pdfUrl: "https://arxiv.org/pdf/2310.08864.pdf",
     VideoUrl: "",
     ProjectUrl: "https://robotics-transformer-x.github.io/",
     imageUrl: "images/RTX.png",
     AppendixUrl: "",
+    dataset: "https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit?gid=0#gid=0",
+    recent: false,
   },
   {
     title:
-      "Learning whole-body manipulation for quadrupedal robot",
+      "Learning whole-body manipulation for quadrupedal robot.",
     author: "Seunghun Jeon, Moonkyu Jung, Suyoung Choi, Beomjoon Kim, Jemin Hwangbo",
     conference:
       "Robotics and Automation Letters (RA-L)",
@@ -138,7 +144,7 @@ const publications = [
   },
   {
     title:
-      "Preference learning for guiding the tree search in continuous POMDPs",
+      "Preference learning for guiding the tree search in continuous POMDPs.",
     author: "Jiyong Ahn, Sanghyeon Son, Dongryung Lee, Jisu Han, Dongwon Son, and Beomjoon Kim.",
     conference:
       "Conference on Robot Learnining (CoRL)",
@@ -487,8 +493,9 @@ function createPublicationElement(publication) {
 }
 
 const publicationsList = document.getElementById("publications-list");
-// const member_list = {...Interns, ...MSMembers, ...PhdMembers}
-publications.forEach((publication) => {
-  const publicationElement = createPublicationElement(publication);
-  publicationsList.appendChild(publicationElement);
-});
+if (publicationsList !== null) {
+  publications.forEach((publication) => {
+    const publicationElement = createPublicationElement(publication);
+    publicationsList.appendChild(publicationElement);
+  });
+}
