@@ -15,6 +15,11 @@ const members = {
       imageUrl: "./img/kyungjun_oh.png",
       websiteUrl: "https://www.linkedin.com/in/okj001010/",
     },
+    {
+      name: "Minyeong Choi",
+      imageUrl: "./img/minyeong_choi.png",
+      websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
+    }
   ],
   "ms": [
     {
