@@ -19,6 +19,11 @@ const members = {
       name: "Minyeong Choi",
       imageUrl: "./img/minyeong_choi.png",
       websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
+    },
+    {
+      name: "Minseok Lee",
+      imageUrl: "./img/minseok_lee.png",
+      websiteUrl: "",
     }
   ],
   "ms": [
