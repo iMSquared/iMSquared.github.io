@@ -1,30 +1,20 @@
 const members = {
   "intern": [
     {
-      name: "Jiho Kim",
-      imageUrl: "./img/jiho_kim.jpg",
-      websiteUrl: "",
-    },
-    {
-      name: "Hyunho Noh",
-      imageUrl: "./img/hyunho_noh.png",
-      websiteUrl: "https://www.linkedin.com/in/hyunhonoh/",
-    },
-    {
-      name: "Kyungjun Oh",
-      imageUrl: "./img/kyungjun_oh.png",
-      websiteUrl: "https://www.linkedin.com/in/okj001010/",
-    },
-    {
-      name: "Minyeong Choi",
-      imageUrl: "./img/minyeong_choi.png",
-      websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
-    },
-    {
       name: "Minseok Lee",
       imageUrl: "./img/minseok_lee.png",
       websiteUrl: "",
-    }
+    },
+    {
+      name: "Yejun Ju",
+      imageUrl: "./img/yejun_ju.png",
+      websiteUrl: "",
+    },
+    {
+      name: "Minjoon Kim",
+      imageUrl: "./img/minjoon_kim.png",
+      websiteUrl: "",
+    },
   ],
   "ms": [
     {
@@ -55,6 +45,26 @@ const members = {
       name: "Haecheol Park",
       imageUrl: "./img/HaecheolPark.jpg",
       websiteUrl: "",
+    },
+    {
+      name: "Jiho Kim",
+      imageUrl: "./img/jiho_kim.jpg",
+      websiteUrl: "",
+    },
+    {
+      name: "Hyunho Noh",
+      imageUrl: "./img/hyunho_noh.png",
+      websiteUrl: "https://www.linkedin.com/in/hyunhonoh/",
+    },
+    {
+      name: "Kyungjun Oh",
+      imageUrl: "./img/kyungjun_oh.png",
+      websiteUrl: "https://www.linkedin.com/in/okj001010/",
+    },
+    {
+      name: "Minyeong Choi",
+      imageUrl: "./img/minyeong_choi.png",
+      websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
     },
   ],
   "phd": [
