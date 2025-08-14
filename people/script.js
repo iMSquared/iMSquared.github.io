@@ -15,14 +15,13 @@ const members = {
       imageUrl: "./img/minjoon_kim.png",
       websiteUrl: "",
     },
+    {
+      name: "Chaewoo Lim",
+      imageUrl: "./img/chaewoo_lim.png",
+      websiteUrl: "",
+    }
   ],
   "ms": [
-    {
-      name: "Sejune Joo",
-      imageUrl: "./img/sejune.JPG",
-      status: "Master candidate",
-      websiteUrl: "https://www.linkedin.com/in/se-june-%E2%80%8Djoo-60a2ba211/",
-    },
     {
       name: "Donguk Lee",
       imageUrl: "./img/donguk.JPG",
@@ -137,6 +136,10 @@ const members = {
     {
       name: "Jaehyung Kim",
       websiteUrl: "https://www.linkedin.com/in/jaehyung-kim-a666551ba/",
+    },
+    {
+      name: "Sejune Joo",
+      websiteUrl: "https://www.linkedin.com/in/se-june-%E2%80%8Djoo-60a2ba211/",
     },
   ]
 };
