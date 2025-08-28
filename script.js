@@ -40,11 +40,13 @@ function createPublicationElement(publication) {
     ];
 }
 
+const currentYear = new Date().getFullYear();
+
 const publicationsList = document.getElementById("publications-list-recent");
 if (publicationsList !== null) {
     const firstElement = publicationsList.childNodes[0];
     publications.filter((publication) => {
-        return publication.year >= 2024 && publication["recent"] !== false;
+        return publication.year >= currentYear - 1 && publication["recent"] !== false;
     }).forEach((publication) => {
         const publicationElements = createPublicationElement(publication);
         publicationElements.forEach((publicationElement) => {

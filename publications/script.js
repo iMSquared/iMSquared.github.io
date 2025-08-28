@@ -79,6 +79,7 @@ export const publications = [
     Paper_link: "https://journals.sagepub.com/doi/10.1177/02783649251347307",
     year: 2025,
     conference_etc: "",
+    conference_shortname: "IJRR 2025",
     pdfUrl: "https://arxiv.org/abs/2506.07062",
     VideoUrl: "",
     ProjectUrl: "",
