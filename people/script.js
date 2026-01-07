@@ -6,33 +6,37 @@ const members = {
       websiteUrl: "",
     },
     {
-      name: "Yejun Ju",
-      imageUrl: "./img/yejun_ju.png",
+      name: "Jaehyuk Kim",
+      imageUrl: "./img/jaehyuk_kim.png",
       websiteUrl: "",
     },
     {
-      name: "Minjoon Kim",
-      imageUrl: "./img/minjoon_kim.png",
+      name: "Munhyeon Wang",
+      imageUrl: "./img/munhyeon_wang.png",
       websiteUrl: "",
     },
     {
-      name: "Chaewoo Lim",
-      imageUrl: "./img/chaewoo_lim.png",
+      name: "Jaewon Choi",
+      imageUrl: "./img/jaewon_choi.png",
+      websiteUrl: "https://www.linkedin.com/in/jaewon-choi-1b6672307",
+    },
+    {
+      name: "Jiyeon Joung",
+      imageUrl: "./img/jiyeon_joung.png",
       websiteUrl: "",
+    },
+    {
+      name: "Huiil Cha",
+      imageUrl: "./img/huiil_cha.png",
+      websiteUrl: "https://www.linkedin.com/in/%ED%9D%AC%EC%9D%BC-%EC%B0%A8-7a4b8b25a",
     }
   ],
   "ms": [
     {
-      name: "Donguk Lee",
-      imageUrl: "./img/donguk.JPG",
-      status: "Master candidate",
-      websiteUrl: "https://github.com/mydulee06",
-    },
-    {
       name: "Hojin Jung",
       imageUrl: "./img/hojin.png",
       status: "Master candidate",
-      websiteUrl: "https://dev.hojins.life/",
+      websiteUrl: "https://dev.hojins.life",
     },
     {
       name: "Yoontae Cho",
@@ -64,6 +68,11 @@ const members = {
       name: "Minyeong Choi",
       imageUrl: "./img/minyeong_choi.png",
       websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
+    },
+    {
+      name: "Minjoon Kim",
+      imageUrl: "./img/minjoon_kim.png",
+      websiteUrl: "",
     },
   ],
   "phd": [
@@ -140,6 +149,10 @@ const members = {
     {
       name: "Sejune Joo",
       websiteUrl: "https://www.linkedin.com/in/se-june-%E2%80%8Djoo-60a2ba211/",
+    },
+    {
+      name: "Donguk Lee",
+      websiteUrl: "https://github.com/mydulee06",
     },
   ]
 };
