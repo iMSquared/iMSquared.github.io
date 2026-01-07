@@ -47,7 +47,7 @@ const members = {
     {
       name: "Haecheol Park",
       imageUrl: "./img/HaecheolPark.jpg",
-      websiteUrl: "",
+      websiteUrl: "https://www.linkedin.com/in/haecheol-park-b3734334a",
     },
     {
       name: "Jiho Kim",
