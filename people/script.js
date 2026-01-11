@@ -72,7 +72,7 @@ const members = {
     {
       name: "Minjoon Kim",
       imageUrl: "./img/minjoon_kim.png",
-      websiteUrl: "",
+      websiteUrl: "https://www.linkedin.com/in/minjoonkim01",
     },
   ],
   "phd": [
