@@ -2,108 +2,82 @@ const members = {
   "intern": [
     {
       name: "Minseok Lee",
-      imageUrl: "./img/minseok_lee.png",
       websiteUrl: "",
     },
     {
       name: "Jaehyuk Kim",
-      imageUrl: "./img/jaehyuk_kim.png",
       websiteUrl: "",
     },
     {
       name: "Munhyeon Wang",
-      imageUrl: "./img/munhyeon_wang.png",
       websiteUrl: "",
     },
     {
       name: "Jaewon Choi",
-      imageUrl: "./img/jaewon_choi.png",
       websiteUrl: "https://www.linkedin.com/in/jaewon-choi-1b6672307",
     },
     {
       name: "Jiyeon Joung",
-      imageUrl: "./img/jiyeon_joung.png",
       websiteUrl: "",
     },
     {
       name: "Huiil Cha",
-      imageUrl: "./img/huiil_cha.png",
       websiteUrl: "https://www.linkedin.com/in/%ED%9D%AC%EC%9D%BC-%EC%B0%A8-7a4b8b25a",
     }
   ],
   "ms": [
     {
       name: "Hojin Jung",
-      imageUrl: "./img/hojin.png",
-      status: "Master candidate",
       websiteUrl: "https://dev.hojins.life",
     },
     {
       name: "Yoontae Cho",
-      imageUrl: "./img/yoontae.jpg",
-      status: "Master candidate",
       websiteUrl: "https://github.com/YoontaeCho",
     },
     {
       name: "Haecheol Park",
-      imageUrl: "./img/HaecheolPark.jpg",
       websiteUrl: "https://www.linkedin.com/in/haecheol-park-b3734334a",
     },
     {
       name: "Jiho Kim",
-      imageUrl: "./img/jiho_kim.jpg",
       websiteUrl: "",
     },
     {
       name: "Hyunho Noh",
-      imageUrl: "./img/hyunho_noh.png",
       websiteUrl: "https://www.linkedin.com/in/hyunhonoh/",
     },
     {
       name: "Kyungjun Oh",
-      imageUrl: "./img/kyungjun_oh.png",
       websiteUrl: "https://www.linkedin.com/in/okj001010/",
     },
     {
       name: "Minyeong Choi",
-      imageUrl: "./img/minyeong_choi.png",
       websiteUrl: "https://www.linkedin.com/in/%EB%AF%BC%EC%98%81-%EC%B5%9C-93152b294?trk=contact-info",
     },
     {
       name: "Minjoon Kim",
-      imageUrl: "./img/minjoon_kim.png",
       websiteUrl: "https://www.linkedin.com/in/minjoonkim01",
     },
   ],
   "phd": [
     {
       name: "Jamie (Yoonyoung) Cho",
-      imageUrl: "./img/jamie.png",
-      status: "PhD candidate",
       websiteUrl: "https://yycho0108.github.io/research",
     },
     {
       name: "Dongwon Son",
-      imageUrl: "./img/dongwon.png",
-      status: "PhD candidate",
       websiteUrl: "https://dongwon-son.github.io/",
     },
     {
       name: "Haewon Jung",
-      imageUrl: "./img/haewon.jpg",
-      status: "PhD candidate",
       websiteUrl: "https://github.com/j-hae1",
     },
     {
       name: "Dongryung Lee",
-      imageUrl: "./img/dongryung.jpg",
-      status: "PhD candidate",
       websiteUrl: "https://github.com/dlee960504",
     },
     {
       name: "Junhyek Han",
-      imageUrl: "./img/junhyek.jpg",
-      status: "PhD candidate",
       websiteUrl: "https://junhyekh.github.io/",
       role: "Lab Manager",
       email: "junhyek.han@kaist.ac.kr",
@@ -112,12 +86,10 @@ const members = {
   "etc": [
     {
       name: 'Shakey',
-      imageUrl: './img/etc/shakey_1.jpeg',
       websiteUrl: "",
     },
     {
       name: 'Allbam Son',
-      imageUrl:'./img/etc/allbam_1.jpg',
       websiteUrl: "",
     },
   ],
@@ -165,47 +137,63 @@ const container = {
   "alumni": document.getElementById("alumni-container"),
 };
 
+const addMemberLink = (member, listItem) => {
+  if (member.websiteUrl) {
+    const memberLink = document.createElement("a");
+    memberLink.classList.add("member-link");
+    memberLink.href = member.websiteUrl;
+    memberLink.textContent = member.name;
+    listItem.appendChild(memberLink);
+  } else {
+    listItem.textContent = member.name;
+  }
+};
+
+const appendDetail = (listItem, detailText) => {
+  const detail = document.createElement("span");
+  detail.classList.add("member-detail");
+  detail.textContent = detailText;
+  listItem.appendChild(detail);
+};
+
 Object
   .keys(members)
   .filter(key => key !== 'alumni')
   .forEach((key) => {
     members[key].forEach((member) => {
-      const memberCard = document.createElement("div");
-      memberCard.classList.add("member-card");
-    
-      const memberImage = document.createElement("img");
-      memberImage.classList.add("member-image");
-      memberImage.src = member.imageUrl;
-      memberImage.alt = `${member.name}'s profile image`;
-    
-      const memberLink = document.createElement("a");
-      memberLink.classList.add("member-link");
-      websiteUrl = member.websiteUrl ? member.websiteUrl : "#";
-      memberLink.href = member.websiteUrl;
-      memberLink.textContent = member.name;
-    
-      memberCard.appendChild(memberImage);
-      memberCard.appendChild(memberLink);
+      const listItem = document.createElement("li");
+      listItem.classList.add("member-item");
+
+      addMemberLink(member, listItem);
+
       if (member.role) {
-        const memberRole = document.createElement("p");
-        memberRole.classList.add("member-role");
-        memberRole.innerText = member.role;
-        memberCard.appendChild(memberRole);
+        appendDetail(listItem, ` — ${member.role}`);
       }
+
       if (member.email) {
         const memberEmail = document.createElement("a");
         memberEmail.classList.add("member-email");
         memberEmail.href = "mailto:".concat(member.email);
-        memberEmail.textContent = member.email;
-        memberCard.appendChild(memberEmail);
+        memberEmail.textContent = ` (${member.email})`;
+        listItem.appendChild(memberEmail);
       }
 
-      container[key].appendChild(memberCard);
+      container[key].appendChild(listItem);
     });
   });
 
-container["alumni"].innerHTML = `
-    <ul>
-      ${members["alumni"].map((alumni) => `<li><a href="${alumni.websiteUrl}">${alumni.name}</a></li>`).join("")}
-    </ul>
-  `;
+members["alumni"].forEach((alumni) => {
+  const listItem = document.createElement("li");
+  listItem.classList.add("member-item");
+
+  if (alumni.websiteUrl) {
+    const alumniLink = document.createElement("a");
+    alumniLink.href = alumni.websiteUrl;
+    alumniLink.textContent = alumni.name;
+    listItem.appendChild(alumniLink);
+  } else {
+    listItem.textContent = alumni.name;
+  }
+
+  container["alumni"].appendChild(listItem);
+});
